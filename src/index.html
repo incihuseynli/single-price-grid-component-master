@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body
+    class="font-karla flex flex-col items-center justify-center bg-secondary-gray"
+  >
+    <section class="grid sm:grid-rows-3 lg:grid-rows-2 sm:w-80 md:w-64 lg:w-[600px] mx-4 my-12">
+      <div class="row-span-1 w-full bg-white p-7 text-left rounded-t-md">
+        <h4 class="mb-4 font-bold tracking-wider text-lg text-primary-cyan">
+          Join our community
+        </h4>
+        <span class="font-medium text-base text-primary-yellow"
+          >30-day, hassle-free money back guarantee</span
+        >
+        <p class="mt-4 text-sm text-secondary-blue">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="sm:row-span-2 lg:row-span-1 lg:flex lg:-mt-12">
+        <div class="w-full p-7 text-left bg-primary-cyan lg:rounded-bl-md">
+          <h5 class="mb-4 font-bold tracking-wider text-lg text-white">
+            Monthly Subscription
+          </h5>
+          <span class="text-3xl text-white mr-4">&dollar;29</span>
+          <span class="text-secondary-gray text-base opacity-80"
+            >per month</span
+          >
+          <p class="my-5 text-white text-sm">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button
+            class="w-full mt-4 text-center text-lg font-medium text-white bg-primary-yellow hover:bg-transparent hover:text-primary-yellow hover:border-2 hover:border-primary-yellow
+             py-4 rounded-lg shadow-2xl transition"
+          >
+            Sign Up
+          </button>
+        </div>
+
+        <div
+          class="w-full p-7 text-left bg-primary-cyan opacity-80 sm:rounded-b-md md:rounded-b-md lg:rounded-br-md lg:rounded-bl-none"
+        >
+          <h5 class="mb-4 font-bold tracking-wider text-lg text-white">
+            Why Us
+          </h5>
+          <ul class="block">
+            <li class="mb-2 text-secondary-gray text-sm">
+              Tutorials by industry experts
+            </li>
+            <li class="mb-2 text-secondary-gray text-sm">
+              Peer &amp; expert code review
+            </li>
+            <li class="mb-2 text-secondary-gray text-sm">Coding exercises</li>
+            <li class="mb-2 text-secondary-gray text-sm">
+              Access to our GitHub repos
+            </li>
+            <li class="mb-2 text-secondary-gray text-sm">Community forum</li>
+            <li class="mb-2 text-secondary-gray text-sm">Flashcard decks</li>
+            <li class="text-secondary-gray text-sm">New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-black text-sm mb-1">
+      <p>
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="font-bold underline underline-offset-2"
+          >Frontend Mentor</a
+        >. Coded by
+        <a class="font-bold underline underline-offset-2" href="#"
+          >Inci Huseynli</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
